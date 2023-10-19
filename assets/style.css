@@ -1,0 +1,22 @@
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-info {
+    height: auto;
+    /* min-height: 250px; */
+    padding: 2%;
+}
+
+.movie-card {
+    width: 450px;
+    /* border: 2px solid black; */
+    background-color: rgb(193, 193, 193);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.movie-card img {
+    width: 100%;
+}
