@@ -28,7 +28,7 @@ function getApi(query){
             let overview = document.createElement('p');
             overview.textContent = movies[i].overview;
             let poster = document.createElement('img');
-            poster.src = "http://image.tmdb.org/t/p/w500/" + movies[i].poster_path;
+            poster.src = "https://image.tmdb.org/t/p/w500/" + movies[i].poster_path;
 
             if (movies[i].poster_path == null){
                 poster.src = "/assets/placeholder.png";
